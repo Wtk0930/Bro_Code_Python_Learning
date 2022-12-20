@@ -11,6 +11,9 @@ def hello_2(first: str, middle: str, last: str):
 hello_2(last="k", first="w", middle="t");
 
 
+
+
+
 # *args = parameter that will pack all arguments into a tuple
 # useful so that a function can accept a varying amount of arguments
 def add(*numbers):
@@ -21,6 +24,10 @@ def add(*numbers):
     return all_sum;
 
 print(add(1, 2, 5));
+
+
+
+
 
 # **kwargs = parameter that will pack all arguments into dictionary
 # useful so that a function can accept a varying amount of keyword arguments

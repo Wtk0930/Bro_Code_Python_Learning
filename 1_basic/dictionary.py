@@ -1,8 +1,10 @@
 # dictionary = a changeable, unordered collection of unique key:value pairs Fast because they use hashing, allow us to access a value quickly
 
-capital = {'China': "ZHEJIANG province",
+capital = {
+            'China': "ZHEJIANG province",
             "India": "Beijing",
-            "Russia": "Mexico"};
+            "Russia": "Mexico"
+        };
 
 # update
 capital["China"] = "Beijing";
